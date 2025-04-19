@@ -1,0 +1,45 @@
+[0.036s] Invoking command in '/home/downink4/WWU/CS497/ros-lab-2/build/ros_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake /home/downink4/WWU/CS497/ros-lab-2/ros_gz_description -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description
+[1.171s] -- The C compiler identification is GNU 13.3.0
+[1.680s] -- The CXX compiler identification is GNU 13.3.0
+[1.746s] -- Detecting C compiler ABI info
+[2.116s] -- Detecting C compiler ABI info - done
+[2.134s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.134s] -- Detecting C compile features
+[2.134s] -- Detecting C compile features - done
+[2.173s] -- Detecting CXX compiler ABI info
+[2.461s] -- Detecting CXX compiler ABI info - done
+[2.478s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.479s] -- Detecting CXX compile features
+[2.480s] -- Detecting CXX compile features - done
+[2.535s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.709s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.332s] -- Configuring done (2.8s)
+[3.445s] -- Generating done (0.1s)
+[3.496s] -- Build files have been written to: /home/downink4/WWU/CS497/ros-lab-2/build/ros_gz_description
+[3.504s] Invoked command in '/home/downink4/WWU/CS497/ros-lab-2/build/ros_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake /home/downink4/WWU/CS497/ros-lab-2/ros_gz_description -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description
+[3.506s] Invoking command in '/home/downink4/WWU/CS497/ros-lab-2/build/ros_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/downink4/WWU/CS497/ros-lab-2/build/ros_gz_description -- -j28 -l28
+[3.575s] Invoked command in '/home/downink4/WWU/CS497/ros-lab-2/build/ros_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/downink4/WWU/CS497/ros-lab-2/build/ros_gz_description -- -j28 -l28
+[3.588s] Invoking command in '/home/downink4/WWU/CS497/ros-lab-2/build/ros_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/downink4/WWU/CS497/ros-lab-2/build/ros_gz_description
+[3.596s] -- Install configuration: ""
+[3.597s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models
+[3.604s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models/diff_drive
+[3.610s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models/diff_drive/model.sdf
+[3.618s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models/diff_drive/model.config
+[3.627s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/ros_gz_description.dsv
+[3.634s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/ros_gz_description.sh
+[3.647s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ament_index/resource_index/package_run_dependencies/ros_gz_description
+[3.657s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ament_index/resource_index/parent_prefix_path/ros_gz_description
+[3.665s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/ament_prefix_path.sh
+[3.671s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/ament_prefix_path.dsv
+[3.678s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/path.sh
+[3.686s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/path.dsv
+[3.693s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/local_setup.bash
+[3.700s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/local_setup.sh
+[3.707s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/local_setup.zsh
+[3.714s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/local_setup.dsv
+[3.720s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.dsv
+[3.730s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ament_index/resource_index/packages/ros_gz_description
+[3.740s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/cmake/ros_gz_descriptionConfig.cmake
+[3.747s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/cmake/ros_gz_descriptionConfig-version.cmake
+[3.755s] -- Installing: /home/downink4/WWU/CS497/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.xml
+[3.841s] Invoked command in '/home/downink4/WWU/CS497/ros-lab-2/build/ros_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/downink4/WWU/CS497/ros-lab-2/build/ros_gz_description

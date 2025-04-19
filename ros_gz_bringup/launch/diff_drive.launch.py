@@ -22,11 +22,14 @@ from launch.actions import IncludeLaunchDescription
 from launch.conditions import IfCondition
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
-
+from launch_ros.actions import PushROSNamespace
 from launch_ros.actions import Node
 
 
 def generate_launch_description():
+
+    np = 'jorksrobot'
+
     # Configure ROS nodes for launch
 
     # Setup project paths
@@ -53,6 +56,7 @@ def generate_launch_description():
 
     # Takes the description and joint angles as inputs and publishes the 3D poses of the robot links
     robot_state_publisher = Node(
+        namespace = np,
         package='robot_state_publisher',
         executable='robot_state_publisher',
         name='robot_state_publisher',
@@ -65,6 +69,7 @@ def generate_launch_description():
     
     # Visualize in RViz
     rviz = Node(
+       namespace = np,
        package='rviz2',
        executable='rviz2',
        arguments=['-d', os.path.join(pkg_project_bringup, 'config', 'diff_drive.rviz')],
@@ -73,6 +78,7 @@ def generate_launch_description():
 
     # Bridge ROS topics and Gazebo messages for establishing communication
     bridge = Node(
+        namespace = np,
         package='ros_gz_bridge',
         executable='parameter_bridge',
         parameters=[{

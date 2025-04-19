@@ -1,0 +1,2 @@
+source ./install/setup.sh
+ros2 launch ros_gz_bringup diff_drive.launch.py
